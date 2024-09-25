@@ -1,0 +1,41 @@
+.footer {
+  background-color: #000000;
+  padding: 10px;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24.61px;
+}
+
+.footer__title {
+  text-align: center;
+  color: #ffb800;
+  text-transform: uppercase;
+}
+
+.footer__subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer__title {
+    text-align: left;
+  }
+
+  .footer__subtitle {
+    text-align: left;
+  }
+}

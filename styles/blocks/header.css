@@ -1,0 +1,48 @@
+.header {
+  background-color: #000000;
+  padding: 10px;
+  height: 49px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24.61px;
+  text-transform: uppercase;
+}
+
+.header__title {
+  color: #ffb800;
+}
+
+.header__line {
+  display: inline-block;
+  margin: 0 10px;
+  width: 1px;
+  background-color: #ffffff;
+  height: 30px;
+  top: 8px;
+}
+
+.header__subtitle {
+  color: #ffffff;
+}
+
+.header__subtitle::after {
+  content: "™";
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 28.6px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,10 @@
+@import "/styles/utils/reset.css";
+
+@import "/styles/blocks/page.css";
+@import "/styles/blocks/header.css";
+@import "/styles/blocks/container.css";
+@import "/styles/blocks/footer.css";
+@import "/styles/blocks/main.css";
+@import "/styles/blocks/loader.css";
+@import "/styles/blocks/card.css";
+@import "/styles/blocks/arrow.css";

@@ -1,0 +1,31 @@
+.download-arrow {
+  position: fixed;
+  width: 184px;
+  height: 184px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+
+.show-arrow {
+  opacity: 1;
+}
+
+.hide-arrow {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
